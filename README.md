@@ -13,6 +13,8 @@ pip install numpy pyautogui opencv-python requests pynput pypiwin32
 
 # Instructions
 
+-This script requires continuous Internet connection
+
 - Change 182 line in Python file to set your email and password **(ONLY GMAIL MAILBOX)**
 ```python
 182. e = SendEmail('YOUR_EMAIL', 'YOUR_PASSWORD', TIME)
@@ -20,6 +22,9 @@ pip install numpy pyautogui opencv-python requests pynput pypiwin32
 **Remember to set the frequency of sending emails on your mailbox by changing the TIME value**
 
 The TIME value is expressed in seconds
+
+**YOU NEED TO ALLOW LESS SECURE APPS ON YOUR GOOGLE ACCOUNT BEFORE USING THIS SCRIPT. YOU CAN DO IT HERE: https://myaccount.google.com/lesssecureapps**
+
 
 > Example
 

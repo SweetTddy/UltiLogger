@@ -13,7 +13,7 @@ pip install numpy pyautogui opencv-python requests pynput pypiwin32
 
 # Instructions
 
--This script requires continuous Internet connection
+- This script requires continuous Internet connection
 
 - Change 182 line in Python file to set your email and password **(ONLY GMAIL MAILBOX)**
 ```python
@@ -23,7 +23,7 @@ pip install numpy pyautogui opencv-python requests pynput pypiwin32
 
 The TIME value is expressed in seconds
 
-**YOU NEED TO ALLOW LESS SECURE APPS ON YOUR GOOGLE ACCOUNT BEFORE USING THIS SCRIPT. YOU CAN DO IT HERE: https://myaccount.google.com/lesssecureapps**
+- **YOU NEED TO ALLOW LESS SECURE APPS ON YOUR GOOGLE ACCOUNT BEFORE USING THIS SCRIPT. YOU CAN DO IT HERE: https://myaccount.google.com/lesssecureapps**
 
 
 > Example

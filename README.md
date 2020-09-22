@@ -1,6 +1,16 @@
 # Keylogger with screen recorder
 A keylogger that sends logs on email and records screen.
 
+# Installation
+
+This script requires numpy, pyautogui, opencv, requests, pynput and pypiwin32.
+
+Install packages from console
+
+```bash
+pip install numpy pyautogui opencv-python requests pynput pypiwin32
+```
+
 # Instructions
 
 - Change 182 line in Python file to set your email and password **(ONLY GMAIL MAILBOX)**

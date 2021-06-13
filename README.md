@@ -29,7 +29,8 @@ The TIME value is expressed in seconds
 > Example
 
 ```python
-182. e = SendEmail('mailbox@gmail.com', 'password1', 10)
+171. gmail = 'YOUR_GMAIL'
+172. pass_for_gmail = 'YOUR_PASSWORD'
 ```
 
 - Run script

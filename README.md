@@ -21,11 +21,4 @@ pip install numpy pyautogui opencv-python requests pynput pypiwin32
 172. pass_for_gmail = 'YOUR_PASSWORD'
 ```
 
-> Example
-
-```python
-171. gmail = 'YOUR_GMAIL'
-172. pass_for_gmail = 'YOUR_PASSWORD'
-```
-
 - Run script

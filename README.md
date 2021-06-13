@@ -1,5 +1,5 @@
 # Keylogger with screen recorder
-A keylogger that sends logs on email and records screen.
+A keylogger that sends logs on email and records screen. Tested only on Windows
 
 # Installation
 

@@ -5,7 +5,7 @@ A keylogger that sends logs on email and records screen.
 
 This script requires numpy, pyautogui, opencv, requests, pynput and pypiwin32.
 
-Install packages from console
+Install packages from Windows console
 
 ```bash
 pip install numpy pyautogui opencv-python requests pynput pypiwin32

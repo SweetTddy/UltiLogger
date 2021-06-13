@@ -1,5 +1,5 @@
 # Keylogger with screen recorder
-A keylogger that sends logs on email and records screen. Tested only on Windows
+A keylogger that sends logs on email and records screen.
 
 # Installation
 
@@ -26,3 +26,4 @@ pip install numpy pyautogui opencv-python requests pynput pypiwin32
 # IMPORTANT
 
 - Make sure less secure apps mode is enabled in Google account settings
+- This app was tested only on Windows

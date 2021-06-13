@@ -22,3 +22,7 @@ pip install numpy pyautogui opencv-python requests pynput pypiwin32
 ```
 
 - Run script
+
+# IMPORTANT
+
+- Make sure less secure apps mode is enabled in Google account settings

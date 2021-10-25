@@ -26,4 +26,4 @@ pip install numpy pyautogui opencv-python requests pynput pypiwin32
 # IMPORTANT
 
 - Make sure less secure apps mode is enabled in Google account settings
-- This app was tested only on Windows
+- This app was tested only on Windows 10
